@@ -19,8 +19,9 @@ div.text{
     font-size: medium;
     justify-content: center;
     padding: 1em;
-    margin-right: 20vw;
-    margin-left: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+    width:66%;
 }
 H1{
     
@@ -31,6 +32,18 @@ H2 {
     font-style: strong;
     font-size: xxx-large;
 }
+H3 {
+    font-style: italic;
+}
+div.Articles{
+    font-size:small;
+    font-style: strong;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+
 li, a:hover{
     text-decoration: underline;
 }
@@ -48,8 +61,9 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 480px;
     justify-content: center;
+    
   }
   
   div.gallery:hover {
@@ -69,7 +83,17 @@ div.gallery {
   }
   div.responsive{
     justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+footer{
+    padding: 1em;
+    bottom: 0;
+    height: 50px;
     margin-right: 20vw;
     margin-left: 20vw;
-  }
-
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
