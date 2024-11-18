@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inital scale=1.0">
-        <link rel="stylesheet" href="CSS/Style.css">
+        <link rel="stylesheet" href="CSS/Style2.css">
         <title> Contact me </title>
     </head>
 <body>
@@ -15,16 +15,19 @@
             <a href="Index.html" target="_blank">Return Home</a>
         </Nav>
     </header>
-    <!--I forgot to close the header bracket last patch, whoopsies.-->
-    
-    <div class="Text">
-        <H2>
-            Have you got questions, concerns or inquires? 
-        </H2>
-        <p> You can send me an email to my personal email: DanielJanderson17@gmail.com</a> </p>
+    <div class="container">
+        <form >
+            <H2> Have you got questions, concerns or inquires? </H2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email ID" required>
+            <textarea id="message" rows="3" placeholder="Type your message here"></textarea>
+            <button type="submit">submit</button>
+        </form>
     </div>
-<!-- I wanted to make a clickable button for my email, but I'd have to learn python-->
+<!-- I made a form and tried to use java to send an email from one email to another, but it didn't work. Need to figure this out-->
 
 </body>
-<footer><a href="Index.html" target="_blank">Return Home</a></footer>
+<footer>
+    <script src="JS/Copyright.js"></script>
+</footer>
 </HTML>

@@ -1,0 +1,46 @@
+<DOCTYPE HTML>
+    <HTML lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital scale=1.0">  
+        <link rel="stylesheet" href="CSS/GalleryStyle.css">
+        <title> Daniel's portfolio Home page</title>
+    </head>
+        <header>
+            <H1>
+                Daniel Anderson's Portfolio
+            </H1>
+            <Nav>
+                <button><a href="Index.html" target="_blank">About me</a></button>
+                <button><a href="Contact me.html" target="_blank">Contact Me</a></button>
+            </Nav>
+            <!--links to seperate site pages to go here. If I this site needs more development-->
+        </header>   
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Images/20230213 Composition - Leading Lines DA 58.jpg" onclick="openModal('Images/20230213 Composition - Leading Lines DA 58.jpg')" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/20230214 Composition DA 116.jpg" onclick="openModal('Images/20230214 Composition DA 116.jpg')" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/20230722 Portrait DA 261.jpg" onclick="openModal('Images/20230722 Portrait DA 261.jpg')" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/20240111 Family DA 0024.jpg" onclick="openModal('Images/20240111 Family DA 0024.jpg')" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/20230314 Motion DA 022B.jpg" onclick="openModal('Images/20230314 Motion DA 022B.jpg')" alt="Image 5">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="JS/Modal.js"></script>
+</body>
+<footer>
+    <script src="JS/Copyright.js"></script>
+</footer>
+</HTML>
